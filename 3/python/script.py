@@ -4,7 +4,7 @@ KEY_LENGTH = 17
 key = [random.randint(0, 255) for _ in range(KEY_LENGTH)]
 print("Згенерований ключ (17 елементів):", key)
 
-plaintext = input("Введи текст для шифрування: ")
+plaintext = input("Введіть текст для шифрування: ")
 
 plain_bytes = plaintext.encode("utf-8")
 
